@@ -12,3 +12,5 @@ spec:
         kind: GitRepository
         name: rke-helm-charts
         namespace: flux-system
+  values:
+    fullnameOverride: "sealed-secrets-controller"
