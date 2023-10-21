@@ -2,7 +2,7 @@ apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: sealed
-  namespace: sealed
+  namespace: sealed-secrets-controller
 spec:
   interval: 1m
   chart:
