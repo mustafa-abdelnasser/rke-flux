@@ -171,6 +171,11 @@ spec:
               operator: In
               values:
               - ceph
+      tolerations:
+      - effect: NoSchedule
+        key: app
+        operator: Equal
+        value: ceph
   #     podAffinity:
   #     podAntiAffinity:
   #     topologySpreadConstraints:
