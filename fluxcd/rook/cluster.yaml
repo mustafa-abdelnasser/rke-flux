@@ -255,13 +255,13 @@ spec:
     nodes:
       - name: "ceph1"
         devices:
-        -name: "vdb"
+        - name: "vdb"
       - name: "ceph2"
         devices:
-        -name: "vdb"
+        - name: "vdb"
       - name: "ceph3"
         devices:
-        -name: "vdb"
+        - name: "vdb"
     # nodes:
     #   - name: "172.17.4.201"
     #     devices: # specific devices to use for storage can be specified for each node
