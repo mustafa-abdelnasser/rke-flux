@@ -173,7 +173,7 @@ spec:
               - ceph
       tolerations:
       - effect: NoSchedule
-        key: app
+        key: node
         operator: Equal
         value: ceph
   #     podAffinity:
