@@ -17,5 +17,5 @@ spec:
         kind: GitRepository
         name: rke-helm-charts
         namespace: flux-system
-    values:
-      replicas: 1
+      values:
+        replicas: 1
