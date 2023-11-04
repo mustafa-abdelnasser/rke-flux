@@ -21,8 +21,7 @@ spec:
     replicas: 2
     leaderElection:
       enable: true
-    watchNamespaces: ["kafka"]
-    watchAnyNamespace: false
+    watchAnyNamespace: true
     resources:
       limits:
         memory: 400Mi
