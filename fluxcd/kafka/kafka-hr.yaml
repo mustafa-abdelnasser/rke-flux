@@ -18,4 +18,13 @@ spec:
         name: rke-helm-charts
         namespace: flux-system
   values:
-    replicas: 1
+    replicas: 2
+    leaderElection:
+      enable: true
+    resources:
+      limits:
+        memory: 400Mi
+        cpu: 1000m
+      requests:
+        memory: 384Mi
+        cpu: 200m
